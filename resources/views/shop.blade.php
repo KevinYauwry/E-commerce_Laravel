@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title','home')
+@section('title','shop')
 
 @section('content')
 
@@ -11,7 +11,7 @@
 
         <section id="product1" class="section-p1">
             <div class="pro-container">
-                <div class="pro">
+                <div class="pro" onclick="window.location.href='{{ route('product') }}'">
                     <img src="{{ asset('images/products/f1.jpg')}}" alt="">
                     <div class="des">
                         <span>adidas</span>

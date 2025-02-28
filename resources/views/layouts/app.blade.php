@@ -24,7 +24,7 @@
     {{-- Footer Section --}}
     @include('partials.footer')
 
-    <script src="{{ asset('script.js') }}"></script>
+    <script src="{{ asset('js/script.js') }}"></script>
     </body>
 
 </html>
