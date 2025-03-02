@@ -21,6 +21,13 @@
         @yield('content')
     </main>
 
+    @if (!request()->is('cart'))  
+
+    {{-- Newsletter Section --}}
+    @include('partials.newsletter')
+
+    @endif
+
     {{-- Footer Section --}}
     @include('partials.footer')
 
